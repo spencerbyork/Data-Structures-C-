@@ -1,0 +1,12 @@
+digraph Exercise2{
+A -> B[label="6",weight="6"];
+B -> A[label="6",weight="6"];
+A -> D[label="5",weight="5"];
+D -> A[label="5",weight="5"];
+A -> C[label="2",weight="2"];
+C -> A[label="2",weight="2"];
+B -> C[label="3",weight="3"];
+C -> B[label="3",weight="3"];
+D -> C[label="4",weight="4"];
+C -> D[label="4",weight="4"];
+};

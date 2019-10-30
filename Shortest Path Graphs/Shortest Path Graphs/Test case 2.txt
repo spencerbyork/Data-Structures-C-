@@ -1,0 +1,19 @@
+GRAPH:  name=Exercise2
+VERTEX:  name=A
+VERTEX:  name=B
+VERTEX:  name=C
+VERTEX:  name=D
+
+
+#Edges are directional, we can make an undirected graph by reversing edges in a directed graph.
+EDGE:  (A, B, 6)
+EDGE:  (B, A, 6)
+EDGE:  (A, D, 5)
+EDGE:  (D, A, 5)
+EDGE:  (A, C, 2)
+EDGE:  (C, A, 2)
+EDGE:  (B, C, 3)
+EDGE:  (C, B, 3)
+EDGE:  (D, C, 4)
+EDGE:  (C, D, 4)
+

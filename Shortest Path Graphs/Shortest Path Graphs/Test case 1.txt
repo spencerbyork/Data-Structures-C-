@@ -1,0 +1,12 @@
+# Comment lines start with a ‘#’ character.
+# Blank lines are also ignored.
+
+GRAPH:  name=Exercise1
+
+VERTEX:  name=A
+VERTEX:  name=B
+VERTEX:  name=C
+
+EDGE:  (A, B, 1)
+EDGE:  (B, C, 3)
+EDGE:  (C, A, 4)
